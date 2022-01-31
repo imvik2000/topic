@@ -8,9 +8,9 @@ public class print_n
      {
          return;
      }
-    //  System.out.println(n);
-     print_num(n-1);
      System.out.println(n);
+     print_num(n-1);
+     //System.out.println(n);
  }
 
 
