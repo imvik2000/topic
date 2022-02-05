@@ -23,4 +23,5 @@ public class print_n
     print_num(n);
 sc.close();
 }
+
 }

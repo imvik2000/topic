@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SortAnArray {
-
+    
 	public static void main(String[] args) {
 		List<Integer> l = new ArrayList();
 		l.add(1);
@@ -26,7 +26,7 @@ public class SortAnArray {
 	}
 
 	private static List<Integer> insert(List<Integer> l, int i) {
-		if(l.size() == 0 || i >= l.get(l.size()-1))
+		if(l.size() == 0 || i >= l.get(l.size()-1))//index
 		{
 			l.add(i);
 			return l;
@@ -40,3 +40,5 @@ public class SortAnArray {
 		return l;
 	}
 }
+
+
