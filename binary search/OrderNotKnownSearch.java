@@ -56,7 +56,7 @@ public class OrderNotKnownSearch{
 
     public static void main(String args[]) {
        
-        int arr[]={20,18,16,14,12,10,8,6,4,2,1};
+        int arr[]={2,4,6,8,10,12,14,16,18,20};
         int low =0;
         int high=arr.length;
         int element=16;
